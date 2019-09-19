@@ -10,7 +10,7 @@ jobs:
       - run:
           name: Single command - echo
           command: echo $CIRCLE_USERNAME
-      -run:
+      - run:
           name Multi-line commands - echo & echo
           command: |
             echo $CIRCLE_REPOSITORY_URL
